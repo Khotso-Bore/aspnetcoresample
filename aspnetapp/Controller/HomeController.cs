@@ -8,7 +8,7 @@ namespace aspnetapp.Controller
     {
         public IActionResult Index()
         {
-            return Ok(new {message = "hello"});
+            return Ok(new {message = "hello world"});
         }
     }
 }
